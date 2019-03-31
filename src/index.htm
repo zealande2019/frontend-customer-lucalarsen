@@ -7,10 +7,32 @@
 </head>
 
 <body>
-  <h1>Webpack - TypeScript - Scss</h1>
-  <h2>TypeScript Hello World</h2>  
+  <h1>Customer rest service</h1>
+  
   <div id="content"></div>
-    
+    <h2>All customers</h2>
+    <button id="getAllbtn">get all the customers</button>
+    <br>
+    <h2>Get one customer</h2>
+    <input type="text" id="inputId" placeholder="Id on customer">
+    <br>
+    <button id="getOnebtn">Get one customer</button>
+    <h2>Add new customer</h1>
+    <input type="text" id="inputFirstName" placeholder="First name">
+    <br>
+    <input type="text" id="inputLastName" placeholder="Last name">
+    <br>
+    <input type="number" id="inputYear" placeholder="Year">
+    <br>
+    <button id="addCustomerbtn">Add new customer</button>
+    <h2>Delete one customer</h2>
+    <input type="text" id="inputDelete" placeholder="Id on customer">
+    <br>
+    <button id="deleteOnebtn">Delete one customer</button>
+    <br>
+
+    <div id="contentDelete"></div>
+
   <script src="bundle.js"></script>
 </body>
 </html>
