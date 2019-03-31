@@ -136,7 +136,7 @@ function DeleteCustomer():void{
 
     axios.delete(newUri)
     .then((response:AxiosResponse)=> {
-        console.log(JSON.stringify(response));
+        // console.log(JSON.stringify(response));
         output.innerHTML = `${response.status} ${response.statusText}`;
     })
     .catch((error:AxiosError)=>{
